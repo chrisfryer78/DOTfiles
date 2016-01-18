@@ -1,0 +1,2 @@
+# DOTfiles
+Chris' awesome ~/.zshrc!
