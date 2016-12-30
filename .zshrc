@@ -31,7 +31,7 @@ RPROMPT="%{$fg_bold[green]%}%0~%{$reset_color%}% %(?,%{$fg_bold[blue]%}:%)%{$res
 
 setopt HIST_IGNORE_DUPS
 
-source /usr/share/doc/pkgfile/command-not-found.zsh
+source /etc/zsh_command_not_found
 
 # .zshrc
 ## History
@@ -42,5 +42,5 @@ SAVEHIST=1000                  # lines of history to maintain in history file.
 setopt HIST_EXPIRE_DUPS_FIRST  # allow dups, but expire old ones when I hit HISTSIZE
 setopt EXTENDED_HISTORY        # save timestamp and runtime information
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+/usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 alias "ls=ls --color=auto"
